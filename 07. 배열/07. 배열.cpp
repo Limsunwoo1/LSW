@@ -19,6 +19,28 @@ int main()
     //  얕은복사 call by value
     //  깊은복사 call by reference
 
+    // 다차원 배열
+
+// int arr[10][10] = {};
+
+//순회
+
+    for (int i = 0; i < 10; ++i)
+    {
+        for (int j = 0; j < 10; ++j)
+        {
+
+        }
+    }
+
+    // 재귀함수
+
+    void dfs(int level)
+    {
+        dfs(level + 1);
+    }
+    // 때에따라 가독성이 좋아짐
+
     // 구조체
 // 사용자 정의 자료형
 

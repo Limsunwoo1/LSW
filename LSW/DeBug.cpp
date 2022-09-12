@@ -1,6 +1,11 @@
 //전처리기
 #include <iostream>
 
+//메모지 활용
+#pragma region BASIC
+int a = 0;
+#pragma endregion
+
 // 전역변수는 프로그램 시작과 동시에 할당
 // 프로그램이 종료되기전 까지는 사라지지 않는다.
 // 무분별한 전역변수 사용은 프로그램이 무거워질수 있다.
