@@ -55,4 +55,28 @@ int main()
     *(pNum) = 500;
 
     num2 = 300;
+
+
+    //함수 포인터
+
+#pragma region FuncPointer
+    {
+        // 함수에 반환값 동일히 맞춤
+        int (*minus)(int, int) = Func;
+
+        int temp = minus(10, 20);
+    }
+
+
+    void prtData()
+
+        void (*print)() = prtData;
+
+
+    int operation(int x, int y, void (*funccall)(int, int)))
+{
+int g = 0;
+g = funccall(x, y);
+}
+#pragma endregion
 }
